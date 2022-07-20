@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
+
+
+
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  body {
+   
+    background-image: url("singup image.png");
+  
+    
+    height: 100%;
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+
+}
+
+.fieldBack {
+background-color: black;
+padding-top: 2cm;
+padding-bottom: 11cm;
+padding-left: 4cm;
+padding-right: 4cm;
+
+display: flex;
+flex-direction: column;
+gap:30px;
+align-items: center;
+}
+
+.field {
+display: flex;
+flex-direction: row;
+}
+
+.topLogo{
+  align-items: center;
+}
+
+.Join{
+  color: white;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif
+}
+
+.subtitle{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+input{
+  background-color: black;
+border: 1px solid rgb(77, 77, 77);
+border-radius: 3px;
+color: rgb(77, 77, 77)
+
+}
+
+input:focus{
+  outline: none;
+  border: 2px solid rgb(255, 52, 52);
+  color: rgb(77, 77, 77)
+}
+
+label{
+  color: rgb(77, 77, 77);
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form{
+  display:flex ;
+  flex-direction: column;
+}
+
+button{
+height: 2cm;
+width: 6cm;
+border: 5px solid rgb(255, 0, 0);
+background-color: black;
+color: rgb(255, 0, 0);
+font-family: 'Arsenal', sans-serif;
+font-size: 40px;
+}
+
+button:hover{
+  color: black;
+  background-color: rgb(255, 0, 0);
+}
